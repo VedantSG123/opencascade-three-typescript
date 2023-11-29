@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Cascade</title>
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <h1>Open Cascade + Three.js</h1>
+    </div>
+    <div id="three-js-container">
+      <canvas id="webgl-canvas"></canvas>
+    </div>
+    <div class="main-wrapper">
+      <input
+        id="step-file"
+        name="step-file"
+        type="file"
+        accept=".iges,.step,.igs,.stp"
+        style="display: none"
+      />
+      <div id="controls">
+        <div class="loader-content" id="load-text">
+          <span class="loader"></span>
+          <span style="margin-left: 8px">Waiting for CAD kernel to start</span>
+        </div>
+
+        <label
+          for="step-file"
+          id="step-file-label"
+          title="Load STEP from File"
+          class="custom-btn hide"
+          >Load STEP/IGES</label
+        >
+      </div>
+    </div>
+  </body>
+</html>
