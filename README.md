@@ -21,7 +21,7 @@ Some of the typescript definitions are not configures in opencascade.js
 
 To fix this, modify the file `node_modules>opencascade.js > dist > opencascade.full.d.ts`
 
-Go to ***line no. 118184*** or near
+Go to **line no. 118184** or near
 
 Find the following lines:
 ```ts
