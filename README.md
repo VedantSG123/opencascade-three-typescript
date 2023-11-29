@@ -30,7 +30,7 @@ export declare class TopExp_Explorer {
 ----
 ----
 ```
-Replace it as show below:
+Replace it as shown below:
 ```ts
 export declare class TopExp_Explorer {
   Init(S: TopoDS_Shape, ToFind: {}, ToAvoid: {}): void;
